@@ -6,7 +6,6 @@ var router = express.Router();
 var stormpath = require('express-stormpath');
 
 router.get('/', stormpath.getUser, function(req, res, next) {
-  console.log('req.user:', req.user);
   res.render('index', { title: 'Express' });
 });
 
