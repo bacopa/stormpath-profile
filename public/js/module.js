@@ -15,5 +15,14 @@ app.config(function($stateProvider, $urlRouterProvider) {
     .state('login', { url: '/login', templateUrl: '/html/login.html' })
     .state('register', { url: '/register', templateUrl: '/html/register.html' })
 
+    .state("profile", {
+    	url: "/profile",
+    	templateUrl: "/html/profile.html",
+    	controller: "profileCtrl",
+    	sp: {
+    		authenticate: true
+    	}
+    })
+
   $urlRouterProvider.otherwise('/')
 });

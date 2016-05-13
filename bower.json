@@ -1,11 +1,11 @@
 {
-  "name": "hey-stormpath",
+  "name": "stormpath-hw",
   "description": "",
   "main": "",
   "authors": [
-    "Cade Nichols <cade@cadenichols.com>"
+    "a fulk"
   ],
-  "license": "MIT",
+  "license": "",
   "homepage": "",
   "ignore": [
     "**/.*",

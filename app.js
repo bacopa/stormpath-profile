@@ -12,6 +12,9 @@ var users = require('./routes/users');
 
 var app = express();
 
+// customData: true
+
+
 app.use(stormpath.init(app, {
   web: {
     register: {
@@ -76,6 +79,8 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
+
+
 
 
 module.exports = app;
